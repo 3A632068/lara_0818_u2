@@ -1,4 +1,5 @@
 <!-- 練習 1-1:在 resources/views底下新增 home.php，並建立一個基本的 HTML 5 文件結構-->
+<!--
 <!doctype html>
 <html lang="en">
 <head>
@@ -12,3 +13,11 @@
 
 </body>
 </html>
+-->
+<!-- 練習 2-2:建立子樣板-->
+@extends('layouts.master')
+@section('title','Home')
+@section('content')
+    <h1>Home</h1>
+    <p>Thisismybodycontent.</p>
+@endsection
