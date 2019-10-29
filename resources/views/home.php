@@ -1,3 +1,4 @@
+//練習 1-1:在 resources/views底下新增 home.php，並建立一個基本的 HTML 5 文件結構
 <!doctype html>
 <html lang="en">
 <head>
